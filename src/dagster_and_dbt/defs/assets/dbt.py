@@ -3,7 +3,7 @@ import json
 
 from dagster_dbt import dbt_assets, DbtCliResource
 from ..partitions import daily_partition
-from dagster_and_dbt.defs.project import dbt_project
+from defs.project import dbt_project
 from dagster_dbt import DagsterDbtTranslator
 from dagster import AssetKey
 
